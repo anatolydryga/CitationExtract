@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st May 2013//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_130501.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">124</PMID>
+        <DateCreated>
+            <Year>1976</Year>
+            <Month>02</Month>
+            <Day>09</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>1976</Year>
+            <Month>02</Month>
+            <Day>09</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2009</Year>
+            <Month>11</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0007-1447</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>4</Volume>
+                    <Issue>5990</Issue>
+                    <PubDate>
+                        <Year>1975</Year>
+                        <Month>Oct</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>British medical journal</Title>
+                <ISOAbbreviation>Br Med J</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Haemoglobin Rahere (beta Lys-Thr): A new high affinity haemoglobin associated with decreased 2, 3-diphosphoglycerate binding and relative polycythaemia.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>200-2</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>A new haemoglobin with increased oxygen affinity, beta82 (EF6) lysine leads to threonine (Hb Rahere), was found during the investigation of a patient who was found to have a raised haemoglobin concentration after a routine blood count. The substitution affects one of the 2, 3-diphosphoglycerate binding sites, resulting in an increased affinity for oxygen, but both the haem-haem interaction and the alkaline Bohr effect are normal in the haemolysate. This variant had the same mobility as haemoglobin A on electrophoresis at alkaline pH but was detected by measuring the whole blood oxygen affinity; it could be separated from haemoglobin A, however, by electrophoresis in agar at acid pH. The raised haemoglobin concentration was mainly due to a reduction in plasma volume (a relative polycythaemia) and was associated with a persistently raised white blood count. This case emphasises the need to measure the oxygen affinity of haemoglobin in all patients with absolute or relative polycythaemia when some obvious cause is not evident.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Lorkin</LastName>
+                    <ForeName>P A</ForeName>
+                    <Initials>PA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stephens</LastName>
+                    <ForeName>A D</ForeName>
+                    <Initials>AD</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Beard</LastName>
+                    <ForeName>M E</ForeName>
+                    <Initials>ME</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wrigley</LastName>
+                    <ForeName>P F</ForeName>
+                    <Initials>PF</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Adams</LastName>
+                    <ForeName>L</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lehmann</LastName>
+                    <ForeName>H</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Case Reports</PublicationType>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>ENGLAND</Country>
+            <MedlineTA>Br Med J</MedlineTA>
+            <NlmUniqueID>0372673</NlmUniqueID>
+            <ISSNLinking>0007-1447</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Amino Acids</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Diphosphoglyceric Acids</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Hemoglobins, Abnormal</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Oxyhemoglobins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Peptide Fragments</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>56-87-1</RegistryNumber>
+                <NameOfSubstance>Lysine</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>72-19-5</RegistryNumber>
+                <NameOfSubstance>Threonine</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>7782-44-7</RegistryNumber>
+                <NameOfSubstance>Oxygen</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>AIM</CitationSubset>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Nucl Med. 1975 Jan;16(1):46-52</RefSource>
+                <PMID Version="1">1110403</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 1966 Nov 19;212(5064):792-5</RefSource>
+                <PMID Version="1">5988206</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Sci (Lond). 1956 Nov;15(4):557-65</RefSource>
+                <PMID Version="1">13374941</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biol Chem. 1964 Jan;239:18-30</RefSource>
+                <PMID Version="1">14114842</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Invest. 1975 Mar;55(3):469-77</RefSource>
+                <PMID Version="1">234980</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat New Biol. 1973 Jun 6;243(127):177-9</RefSource>
+                <PMID Version="1">4514629</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 1972 May 19;237(5351):146-9</RefSource>
+                <PMID Version="1">4555506</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 1971 Aug 6;232(5310):408-13</RefSource>
+                <PMID Version="1">4938842</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Invest. 1972 Mar;51(3):666-76</RefSource>
+                <PMID Version="1">5011106</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Biochem. 1972 Mar;5(1):46-50</RefSource>
+                <PMID Version="1">5022448</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Chim Acta. 1972 Apr;38(1):258-62</RefSource>
+                <PMID Version="1">5031790</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Haematol. 1972 May;22(5):599-607</RefSource>
+                <PMID Version="1">5032098</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Blood. 1971 Dec;38(6):730-8</RefSource>
+                <PMID Version="1">5126162</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mayo Clin Proc. 1971 Nov;46(11):721-7</RefSource>
+                <PMID Version="1">5128393</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Invest. 1970 Jun;49(6):1088-95</RefSource>
+                <PMID Version="1">5422014</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochim Biophys Acta. 1970 Feb 17;200(2):189-96</RefSource>
+                <PMID Version="1">5461230</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Intern Med. 1968 Oct;69(4):769-76</RefSource>
+                <PMID Version="1">5687529</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 1969 Feb 15;221(5181):618-22</RefSource>
+                <PMID Version="1">5774935</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chromatogr. 1965 Jul;19(1):160-9</RefSource>
+                <PMID Version="1">5857919</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Invest. 1966 Jun;45(6):813-22</RefSource>
+                <PMID Version="1">5913291</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 1966 Aug;19(1):91-108</RefSource>
+                <PMID Version="1">5967288</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Johns Hopkins Med J. 1975 Mar;136(3):132-6</RefSource>
+                <PMID Version="1">1117598</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Amino Acid Sequence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Amino Acids</DescriptorName>
+                <QualifierName MajorTopicYN="N">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Diphosphoglyceric Acids</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Hemoglobins, Abnormal</DescriptorName>
+                <QualifierName MajorTopicYN="Y">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Hydrogen-Ion Concentration</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Leukocyte Count</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Lysine</DescriptorName>
+                <QualifierName MajorTopicYN="N">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Oxygen</DescriptorName>
+                <QualifierName MajorTopicYN="N">blood</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Oxyhemoglobins</DescriptorName>
+                <QualifierName MajorTopicYN="N">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Peptide Fragments</DescriptorName>
+                <QualifierName MajorTopicYN="N">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Plasma Volume</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Polycythemia</DescriptorName>
+                <QualifierName MajorTopicYN="Y">blood</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Threonine</DescriptorName>
+                <QualifierName MajorTopicYN="N">analysis</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC1675002</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>1975</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>1975</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+                <Hour>0</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>1975</Year>
+                <Month>10</Month>
+                <Day>25</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">124</ArticleId>
+            <ArticleId IdType="pmc">PMC1675002</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">21887247</PMID>
+        <DateCreated>
+            <Year>2011</Year>
+            <Month>09</Month>
+            <Day>02</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2012</Year>
+            <Month>01</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2013</Year>
+            <Month>06</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>6</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2011</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Curcumin-loaded apotransferrin nanoparticles provide efficient cellular uptake and effectively inhibit HIV-1 replication in vitro.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e23388</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0023388</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Curcumin (diferuloylmethane) shows significant activity across a wide spectrum of conditions, but its usefulness is rather limited because of its low bioavailability. Use of nanoparticle formulations to enhance curcumin bioavailability is an emerging area of research.</AbstractText>
+                <AbstractText Label="METHODOLOGY/PRINCIPAL FINDINGS" NlmCategory="RESULTS">In the present study, curcumin-loaded apotransferrin nanoparticles (nano-curcumin) prepared by sol-oil chemistry and were characterized by electron and atomic force microscopy. Confocal studies and fluorimetric analysis revealed that these particles enter T cells through transferrin-mediated endocytosis. Nano-curcumin releases significant quantities of drug gradually over a fairly long period, ∼50% of curcumin still remaining at 6 h of time. In contrast, intracellular soluble curcumin (sol-curcumin) reaches a maximum at 2 h followed by its complete elimination by 4 h. While sol-curcumin (GI(50) = 15.6 µM) is twice more toxic than nano-curcumin (GI(50) = 32.5 µM), nano-curcumin (IC(50)&lt;1.75 µM) shows a higher anti-HIV activity compared to sol-curcumin (IC(50) = 5.1 µM). Studies in vitro showed that nano-curcumin prominently inhibited the HIV-1 induced expression of Topo II α, IL-1β and COX-2, an effect not seen with sol-curcumin. Nano-curcumin did not affect the expression of Topoisomerase II β and TNF α. This point out that nano-curcumin affects the HIV-1 induced inflammatory responses through pathways downstream or independent of TNF α. Furthermore, nano-curcumin completely blocks the synthesis of viral cDNA in the gag region suggesting that the nano-curcumin mediated inhibition of HIV-1 replication is targeted to viral cDNA synthesis.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Curcumin-loaded apotransferrin nanoparticles are highly efficacious inhibitors of HIV-1 replication in vitro and promise a high potential for clinical usefulness.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Biotechnology, University of Hyderabad, Hyderabad, India.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Gandapu</LastName>
+                    <ForeName>Upendhar</ForeName>
+                    <Initials>U</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chaitanya</LastName>
+                    <ForeName>R K</ForeName>
+                    <Initials>RK</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kishore</LastName>
+                    <ForeName>Golla</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Reddy</LastName>
+                    <ForeName>Raju C</ForeName>
+                    <Initials>RC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kondapi</LastName>
+                    <ForeName>Anand K</ForeName>
+                    <Initials>AK</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>AI079539</GrantID>
+                    <Acronym>AI</Acronym>
+                    <Agency>NIAID NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, N.I.H., Extramural</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>08</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Antigens, Neoplasm</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Apoproteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>DNA, Viral</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>DNA-Binding Proteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Receptors, Transferrin</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Transferrin</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>apotransferrin</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>458-37-7</RegistryNumber>
+                <NameOfSubstance>Curcumin</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 5.99.1.3</RegistryNumber>
+                <NameOfSubstance>DNA Topoisomerases, Type II</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 5.99.1.3</RegistryNumber>
+                <NameOfSubstance>DNA topoisomerase II alpha</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Thromb Res. 1985 Nov 1;40(3):413-7</RefSource>
+                <PMID Version="1">4082116</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Lett. 1985 Nov;29(2):197-202</RefSource>
+                <PMID Version="1">4075289</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 1993 Mar 1;90(5):1839-42</RefSource>
+                <PMID Version="1">8446597</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Scand J Clin Lab Invest Suppl. 1993;215:113-20</RefSource>
+                <PMID Version="1">8327847</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 1994 Jun 21;91(13):5913-7</RefSource>
+                <PMID Version="1">8016088</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioorg Med Chem. 1993 Dec;1(6):415-22</RefSource>
+                <PMID Version="1">8087563</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biol Chem. 1994 Oct 7;269(40):25031-41</RefSource>
+                <PMID Version="1">7929189</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochem Pharmacol. 1995 Apr 18;49(8):1165-70</RefSource>
+                <PMID Version="1">7748198</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Invest. 1995 Jul;96(1):126-31</RefSource>
+                <PMID Version="1">7615782</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Infect Dis. 1995 Oct;21(4):973-6</RefSource>
+                <PMID Version="1">8645849</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Biochem. 1996 Jun 21;159(2):85-93</RefSource>
+                <PMID Version="1">8858558</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Biochem. 1997 Jan;166(1-2):169-75</RefSource>
+                <PMID Version="1">9046034</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Res Virol. 1998 Jan-Feb;149(1):43-52</RefSource>
+                <PMID Version="1">9561563</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Planta Med. 1998 May;64(4):353-6</RefSource>
+                <PMID Version="1">9619120</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 1999 Jan 22;285(3):945-54</RefSource>
+                <PMID Version="1">9887261</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Biochem Funct. 1999 Mar;17(1):47-55</RefSource>
+                <PMID Version="1">10191508</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochem Pharmacol. 2005 Jul 1;70(1):90-101</RefSource>
+                <PMID Version="1">15894294</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer. 2005 Sep 15;104(6):1322-31</RefSource>
+                <PMID Version="1">16092118</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Antivir Ther. 2005;10(5):615-24</RefSource>
+                <PMID Version="1">16152755</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Chem. 2006 Jun 1;49(11):3153-8</RefSource>
+                <PMID Version="1">16722634</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Biochem Biophys. 2006 Jun 15;450(2):123-32</RefSource>
+                <PMID Version="1">16712776</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Biochem Biophys. 2007 May 1;461(1):40-9</RefSource>
+                <PMID Version="1">17391642</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Pharm. 2007 Nov-Dec;4(6):807-18</RefSource>
+                <PMID Version="1">17999464</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Protoc. 2008;3(6):1101-8</RefSource>
+                <PMID Version="1">18546601</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2009;4(10):e7240</RefSource>
+                <PMID Version="1">19806207</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nanomedicine. 2010 Feb;6(1):153-60</RefSource>
+                <PMID Version="1">19616123</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mini Rev Med Chem. 2010 May;10(5):372-87</RefSource>
+                <PMID Version="1">20370702</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Pharmacol. 2000 Jan;129(2):231-4</RefSource>
+                <PMID Version="1">10694226</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Anticancer Res. 2001 Jul-Aug;21(4B):2895-900</RefSource>
+                <PMID Version="1">11712783</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pharmacol Rev. 2002 Dec;54(4):561-87</RefSource>
+                <PMID Version="1">12429868</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Anticancer Res. 2002 Nov-Dec;22(6C):4179-81</RefSource>
+                <PMID Version="1">12553052</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Biochem. 2003 Dec;254(1-2):289-97</RefSource>
+                <PMID Version="1">14674708</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Cancer. 2004 Mar 8;90(5):1011-5</RefSource>
+                <PMID Version="1">14997198</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Enzyme Inhib Med Chem. 2003 Dec;18(6):505-9</RefSource>
+                <PMID Version="1">15008515</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Pharm Pharmacol. 1973 Jun;25(6):447-52</RefSource>
+                <PMID Version="1">4146582</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochem Pharmacol. 1976 Aug 1;25(15):1811-2</RefSource>
+                <PMID Version="1">942483</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Indian J Med Res. 1980 Apr;71:632-4</RefSource>
+                <PMID Version="1">7390600</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Planta Med. 1983 Nov;49(3):185-7</RefSource>
+                <PMID Version="1">6657788</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cancer Res. 1984 Dec;44(12 Pt 1):5657-60</RefSource>
+                <PMID Version="1">6437672</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Neurol. 1991 Jun;29(6):606-14</RefSource>
+                <PMID Version="1">1892364</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Antigens, Neoplasm</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Apoproteins</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cell Death</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cell Line</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Curcumin</DescriptorName>
+                <QualifierName MajorTopicYN="N">administration &amp; dosage</QualifierName>
+                <QualifierName MajorTopicYN="Y">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">DNA Topoisomerases, Type II</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">DNA, Viral</DescriptorName>
+                <QualifierName MajorTopicYN="N">biosynthesis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">DNA-Binding Proteins</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Drug Delivery Systems</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">HIV-1</DescriptorName>
+                <QualifierName MajorTopicYN="Y">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="Y">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Inflammation</DescriptorName>
+                <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Leukocytes, Mononuclear</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Nanoparticles</DescriptorName>
+                <QualifierName MajorTopicYN="Y">chemistry</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Neutralization Tests</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Particle Size</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Receptors, Transferrin</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Transferrin</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Virus Replication</DescriptorName>
+                <QualifierName MajorTopicYN="Y">drug effects</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC3161739</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2011</Year>
+                <Month>4</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>7</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2011</Year>
+                <Month>8</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>9</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>9</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1371/journal.pone.0023388</ArticleId>
+            <ArticleId IdType="pii">PONE-D-11-06751</ArticleId>
+            <ArticleId IdType="pubmed">21887247</ArticleId>
+            <ArticleId IdType="pmc">PMC3161739</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>
