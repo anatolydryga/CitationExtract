@@ -14,10 +14,6 @@ public class CitationFactoryTest {
     Document doc3;
 
     public CitationFactoryTest() {
-        System.out.println("CitationFactoryTest ctor");
-        System.out.println("Working Directory = "
-                + System.getProperty("user.dir"));
-
         try {
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
@@ -25,14 +21,13 @@ public class CitationFactoryTest {
             doc2 = db.parse("./test/citExtract/24015326.xml"); // abstract with \mu
             doc3 = db.parse("./test/citExtract/21887247_124.xml"); // 2 articles: one without anything; second with h, greek and approx
         } catch (Exception e) {
-            System.out.println("failure of doc loading");
             assertTrue(false);
         }
     }
 
     @Test
     public void structuredAbstractParsing() {
-        ArrayList< Citation> citations = CitationFactory.createCitations(doc1);
+        ArrayList<Citation> citations = CitationFactory.createCitations(doc1);
         assertNotNull(citations);
         assertEquals(citations.size(), 1);
         Citation citation = citations.get(0);
@@ -42,7 +37,7 @@ public class CitationFactoryTest {
 
     @Test
     public void abstractWith1SubstitutionParsing() {
-        ArrayList< Citation> citations = CitationFactory.createCitations(doc2);
+        ArrayList<Citation> citations = CitationFactory.createCitations(doc2);
         assertNotNull(citations);
         assertEquals(citations.size(), 1);
         Citation citation = citations.get(0);
@@ -52,7 +47,7 @@ public class CitationFactoryTest {
 
     @Test
     public void twoArticles() {
-        ArrayList< Citation> citations = CitationFactory.createCitations(doc3);
+        ArrayList<Citation> citations = CitationFactory.createCitations(doc3);
         assertNotNull(citations);
         assertEquals(citations.size(), 2);
 
@@ -69,7 +64,7 @@ public class CitationFactoryTest {
 
     @Test
     public void abs1() {
-        ArrayList< Citation> citations = CitationFactory.createCitations(doc1);
+        ArrayList<Citation> citations = CitationFactory.createCitations(doc1);
         Abstract abst = citations.get(0).getAbstract();
         assertEquals(abst.getSectionsText().size(), 3);
         assertEquals(abst.getSectionsLabel().size(), 3);
@@ -85,7 +80,7 @@ public class CitationFactoryTest {
 
     @Test
     public void abs2() {
-        ArrayList< Citation> citations = CitationFactory.createCitations(doc2);
+        ArrayList<Citation> citations = CitationFactory.createCitations(doc2);
         Abstract abst = citations.get(0).getAbstract();
         assertEquals(abst.getSectionsText().size(), 1);
         assertEquals(abst.getSectionsLabel().size(), 1);
@@ -95,7 +90,7 @@ public class CitationFactoryTest {
 
     @Test
     public void abs3twoArticles() {
-        ArrayList< Citation> citations = CitationFactory.createCitations(doc3);
+        ArrayList<Citation> citations = CitationFactory.createCitations(doc3);
         Abstract abst1 = citations.get(0).getAbstract();
         Abstract abst2 = citations.get(1).getAbstract();
 
@@ -108,7 +103,7 @@ public class CitationFactoryTest {
 
     @Test
     public void ref1() {
-        ArrayList< Citation> citations = CitationFactory.createCitations(doc1);
+        ArrayList<Citation> citations = CitationFactory.createCitations(doc1);
         Reference ref = citations.get(0).getReference();
         assertNotNull(ref);
         assertEquals(ref.getYear(), 2006);
@@ -127,7 +122,7 @@ public class CitationFactoryTest {
 
     @Test
     public void ref2() {
-        ArrayList< Citation> citations = CitationFactory.createCitations(doc2);
+        ArrayList<Citation> citations = CitationFactory.createCitations(doc2);
         Reference ref = citations.get(0).getReference();
         assertNotNull(ref);
         assertEquals(ref.getYear(), 2013);
@@ -145,10 +140,9 @@ public class CitationFactoryTest {
 
     }
 
-    @Ignore
     @Test
     public void ref3twoArticles() {
-        ArrayList< Citation> citations = CitationFactory.createCitations(doc3);
+        ArrayList<Citation> citations = CitationFactory.createCitations(doc3);
         Reference ref1 = citations.get(0).getReference();
         Reference ref2 = citations.get(1).getReference();
         assertNotNull(ref1);
@@ -163,18 +157,16 @@ public class CitationFactoryTest {
             ref2188 = ref1;
         }
 
-        // which year to use
-        assertEquals(ref124.getYear(), 1976); // TODO: case where we have diff years
-        assertEquals(ref124.getYear(), 1975); // TODO: case where we have diff years
-        assertEquals(ref124.getVolume(), 4);
-        assertEquals(ref124.getIssue(), 5990);
+        assertEquals(ref124.getYear(), 1975);
+        assertEquals(ref124.getVolume(), "4");
+        assertEquals(ref124.getIssue(), "5990");
         assertEquals(ref124.getJournal(), "Br Med J");
         assertEquals(ref124.getPages(), "200-2");
         assertEquals(ref124.getNumberOfAuthors(), 6);
 
         assertEquals(ref2188.getYear(), 2011);
-        assertEquals(ref2188.getVolume(), 6);
-        assertEquals(ref2188.getIssue(), 8);
+        assertEquals(ref2188.getVolume(), "6");
+        assertEquals(ref2188.getIssue(), "8");
         assertEquals(ref2188.getJournal(), "PLoS ONE");
         assertEquals(ref2188.getPages(), "e23388");
         assertEquals(ref2188.getNumberOfAuthors(), 5);
