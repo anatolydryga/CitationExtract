@@ -23,19 +23,19 @@ public class CitationFactory {
         NodeList nList = doc.getElementsByTagName("PubmedArticle");
 
         for (int i = 0; i < nList.getLength(); i++) {
-            Element elem = (Element) nList.item(i);
-            int pmid = getFirstIntElement(elem, "PMID");
-            Abstract abs = createAbstract(elem);
-            Reference ref = createReference(elem);
+            Element pubMedArticle = (Element) nList.item(i);
+            int pmid = getFirstIntElement(pubMedArticle, "PMID");
+            Abstract abs = createAbstract(pubMedArticle);
+            Reference ref = createReference(pubMedArticle);
             Citation citation = new Citation(pmid, ref, abs);
             citations.add(citation);
         }
         return citations;
     }
 
-    private static Abstract createAbstract(Element elem) {
+    private static Abstract createAbstract(Element pubMedArticle) {
         Abstract abst = new Abstract();
-        NodeList nList = elem.getElementsByTagName("AbstractText");
+        NodeList nList = pubMedArticle.getElementsByTagName("AbstractText");
         for (int i = 0; i < nList.getLength(); i++) {
             Node nNode = nList.item(i);
             String label = ((Element) nNode).getAttribute("Label");
@@ -44,27 +44,27 @@ public class CitationFactory {
         return abst;
     }
 
-    private static Reference createReference(Element elem) {
+    private static Reference createReference(Element pubMedArticle) {
         Reference reference = new Reference();
 
-        int year = getFirstIntElement(elem, "Year");
+        int year = getPublicationYear(pubMedArticle);
         if (year != -1) {
             reference.setYear(year);
         }
 
-        String volume = getFirstStringElement(elem, "Volume");
+        String volume = getFirstStringElement(pubMedArticle, "Volume");
         reference.setVolume(volume);
 
-        String issue = getFirstStringElement(elem, "Issue");
+        String issue = getFirstStringElement(pubMedArticle, "Issue");
         reference.setIssue(issue);
 
-        String journal = getFirstStringElement(elem, "ISOAbbreviation");
+        String journal = getFirstStringElement(pubMedArticle, "ISOAbbreviation");
         reference.setJournal(journal);
 
-        String pages = getFirstStringElement(elem, "MedlinePgn");
+        String pages = getFirstStringElement(pubMedArticle, "MedlinePgn");
         reference.setPages(pages);
 
-        NodeList nList = elem.getElementsByTagName("Author");
+        NodeList nList = pubMedArticle.getElementsByTagName("Author");
         for (int i = 0; i < nList.getLength(); i++) {
             Node nNode = nList.item(i);
             Element elemAuthor = (Element) nNode;
@@ -76,6 +76,17 @@ public class CitationFactory {
         }
 
         return reference;
+    }
+
+    private static int getPublicationYear(Element pubMedArticle) {
+        NodeList pubDate = pubMedArticle.getElementsByTagName("PubDate");
+        int year;
+        if (pubDate.getLength() == 1) {
+            year = getFirstIntElement( (Element) pubDate.item(0), "Year");
+        } else {
+            year = -1;
+        }
+        return year;
     }
 
     /// return value if can extract it
