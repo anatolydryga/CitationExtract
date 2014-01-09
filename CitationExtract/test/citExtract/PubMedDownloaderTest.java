@@ -9,7 +9,7 @@ public class PubMedDownloaderTest{
     private static String base =
         "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=";
 
-    @Test
+    @Ignore @Test /// < ignore to save time
     public void ctr() {
         int[] ids = {124};
         PubMedDownloader downloader =  new PubMedDownloader(ids);
