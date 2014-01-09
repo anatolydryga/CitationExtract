@@ -1,16 +1,17 @@
 package citExtract;
 
 import java.util.ArrayList;
+import java.util.List;
 /**
     parsed abstract from PubMed XML.
 
     No substitutions are made and abstract is considered as structured abstract
     which has several sections.
 */
-class Abstract {
+public class Abstract {
 
-    ArrayList< String > sectionsText  = new ArrayList< String >();
-    ArrayList< String > sectionsLabel = new ArrayList< String >();
+    List<String> sectionsText  = new ArrayList<>();
+    List<String> sectionsLabel = new ArrayList<>();
 
     /// if no label add "" string
     public void addAbstractText(String text, String label) {
@@ -18,13 +19,13 @@ class Abstract {
         sectionsLabel.add(label);
     }
 
-    public ArrayList< String > getSectionsText() {
+    public List< String > getSectionsText() {
         return sectionsText;
     }
 
     /// if no label we assign label to "" to keep
     /// size the same as size of text
-    public ArrayList< String > getSectionsLabel() {
+    public List< String > getSectionsLabel() {
         return sectionsLabel;
     }
 }
