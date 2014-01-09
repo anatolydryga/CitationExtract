@@ -9,7 +9,7 @@ import java.util.ArrayList;
                                                                                  
     journal, author list, year, volume, issue, pages                                                 
 */                                                                               
-class Reference {                                                                
+public class Reference {                                                                
                                                                                                                                                                 
     private int year;
     
