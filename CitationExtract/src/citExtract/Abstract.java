@@ -19,13 +19,13 @@ public class Abstract {
         sectionsLabel.add(label);
     }
 
-    public List< String > getSectionsText() {
+    public List<String> getSectionsText() {
         return sectionsText;
     }
 
     /// if no label we assign label to "" to keep
     /// size the same as size of text
-    public List< String > getSectionsLabel() {
+    public List<String> getSectionsLabel() {
         return sectionsLabel;
     }
 }
