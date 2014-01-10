@@ -2,6 +2,8 @@ package citExtract;
 
 import java.util.ArrayList;
 import org.w3c.dom.Document;
+import citFormatter.*;
+import java.util.List;
 
 /**                                                                              
     main class for program that extract citation from NCBI                       
@@ -32,13 +34,21 @@ public class CitationExtract {
                                                                                  
         Document doc = downloader.getXML();                                   
                                                                                  
-        ArrayList<Citation> citations = CitationFactory.createCitations(doc);
-//        System.out.println("All citation are extracted");                        
-//                                                                                 
-//        ArrayList< Citation > citationsFormatted;                                
-//                                                                                 
-//        CitFormatter  txtFormat = CitTxtFormatter(citationsFormatted);           
-//        CitFormatter htmlFormat = CitHtmlFormatter(citationsFormatted);          
+        List<Citation> citations = CitationFactory.createCitations(doc);
+        System.out.println("All citation are extracted"); 
         
+        List<CitationFormatted> formCitations = formatCitations(citations);   
+        
+        //                                                                                 
+        //        CitFormatter  txtFormat = CitTxtFormatter(citationsFormatted);           
+        //        CitFormatter htmlFormat = CitHtmlFormatter(citationsFormatted);
+    }
+
+    private static List<CitationFormatted> formatCitations(List<Citation> citations) {
+        ReferenceFormatter refFormatter = new ReferenceFormatter();
+        AbstractFormatter absFormatter = new AbstractFormatter();
+        CitationFormatterFactory formatter = 
+                new CitationFormatterFactory(refFormatter, absFormatter);
+        return formatter.format(citations);                                
     }                                                                            
 }                       
