@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import java.util.ArrayList;
 import org.w3c.dom.*;
 import java.net.*;
+import java.util.List;
 import javax.xml.parsers.*;
 
 public class CitationFactoryTest {
@@ -64,7 +65,7 @@ public class CitationFactoryTest {
 
     @Test
     public void abs1() {
-        ArrayList<Citation> citations = CitationFactory.createCitations(doc1);
+        List<Citation> citations = CitationFactory.createCitations(doc1);
         Abstract abst = citations.get(0).getAbstract();
         assertEquals(abst.getSectionsText().size(), 3);
         assertEquals(abst.getSectionsLabel().size(), 3);
@@ -80,7 +81,7 @@ public class CitationFactoryTest {
 
     @Test
     public void abs2() {
-        ArrayList<Citation> citations = CitationFactory.createCitations(doc2);
+        List<Citation> citations = CitationFactory.createCitations(doc2);
         Abstract abst = citations.get(0).getAbstract();
         assertEquals(abst.getSectionsText().size(), 1);
         assertEquals(abst.getSectionsLabel().size(), 1);
@@ -90,7 +91,7 @@ public class CitationFactoryTest {
 
     @Test
     public void abs3twoArticles() {
-        ArrayList<Citation> citations = CitationFactory.createCitations(doc3);
+        List<Citation> citations = CitationFactory.createCitations(doc3);
         Abstract abst1 = citations.get(0).getAbstract();
         Abstract abst2 = citations.get(1).getAbstract();
 
@@ -103,7 +104,7 @@ public class CitationFactoryTest {
 
     @Test
     public void ref1() {
-        ArrayList<Citation> citations = CitationFactory.createCitations(doc1);
+        List<Citation> citations = CitationFactory.createCitations(doc1);
         Reference ref = citations.get(0).getReference();
         assertNotNull(ref);
         assertEquals(ref.getYear(), 2006);
@@ -122,7 +123,7 @@ public class CitationFactoryTest {
 
     @Test
     public void ref2() {
-        ArrayList<Citation> citations = CitationFactory.createCitations(doc2);
+        List<Citation> citations = CitationFactory.createCitations(doc2);
         Reference ref = citations.get(0).getReference();
         assertNotNull(ref);
         assertEquals(ref.getYear(), 2013);
@@ -142,7 +143,7 @@ public class CitationFactoryTest {
 
     @Test
     public void ref3twoArticles() {
-        ArrayList<Citation> citations = CitationFactory.createCitations(doc3);
+        List<Citation> citations = CitationFactory.createCitations(doc3);
         Reference ref1 = citations.get(0).getReference();
         Reference ref2 = citations.get(1).getReference();
         assertNotNull(ref1);
