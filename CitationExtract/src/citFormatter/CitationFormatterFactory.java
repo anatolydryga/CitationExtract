@@ -25,6 +25,6 @@ public class CitationFormatterFactory {
      * @return list of citations that are formatted according to rules
      */
     public List<CitationFormatted> format(List<Citation> citations) {
-        return null;
+        return new ArrayList<>();
     }
 }
