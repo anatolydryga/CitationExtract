@@ -14,7 +14,7 @@ public class CitationFormatted {
     private final String ref;
     private final List<Substitution> substitutions;
 
-    CitationFormatted(int PMID, String ref, List<Substitution> substitutions) {
+    public CitationFormatted(int PMID, String ref, List<Substitution> substitutions) {
         this.PMID = PMID;
         this.ref = ref;
         this.substitutions = substitutions;
