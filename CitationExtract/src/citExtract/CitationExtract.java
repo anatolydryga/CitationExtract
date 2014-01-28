@@ -3,6 +3,7 @@ package citExtract;
 import java.util.ArrayList;
 import org.w3c.dom.Document;
 import citFormatter.*;
+import citPrinter.CitationPrinter;
 import java.util.List;
 
 /**                                                                              
@@ -37,11 +38,13 @@ public class CitationExtract {
         List<Citation> citations = CitationFactory.createCitations(doc);
         System.out.println("All citation are extracted"); 
         
-        List<CitationFormatted> formCitations = formatCitations(citations);   
+        List<CitationFormatted> formattedCitations = formatCitations(citations);   
         
-        //                                                                                 
-        //        CitFormatter  txtFormat = CitTxtFormatter(citationsFormatted);           
-        //        CitFormatter htmlFormat = CitHtmlFormatter(citationsFormatted);
+        CitationPrinter htmlPrinter = new CitationPrinter(formattedCitations);
+        String html = htmlPrinter.print();
+
+        String htmlFile = "citations.html";
+        writeToFile(htmlFile, html);
     }
 
     private static List<CitationFormatted> formatCitations(List<Citation> citations) {
@@ -51,4 +54,8 @@ public class CitationExtract {
                 new CitationFormatterFactory(refFormatter, absFormatter);
         return formatter.format(citations);                                
     }                                                                            
+
+    private static void writeToFile(String htmlFile, String html) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }                       
