@@ -8,6 +8,7 @@ import citExtract.Citation;
 import citExtract.CitationFormatted;
 import java.util.ArrayList;
 import java.util.List;
+import substitution.Substitution;
 
 /**
  *
@@ -15,16 +16,31 @@ import java.util.List;
  */
 public class CitationFormatterFactory {
 
-    public CitationFormatterFactory(ReferenceFormatter refFormatter, AbstractFormatter absFormatter) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    private ReferenceFormatter refFormatter;
+    private AbstractFormatter absFormatter;
+
+    public CitationFormatterFactory(
+            ReferenceFormatter refFormatter, 
+            AbstractFormatter absFormatter
+    ) {
+       this.refFormatter = refFormatter; 
+       this.absFormatter = absFormatter;
     }
 
+
     /**
-     *
      * @param citations list of parsed citations
      * @return list of citations that are formatted according to rules
      */
     public List<CitationFormatted> format(List<Citation> citations) {
-        return new ArrayList<>();
+        List<CitationFormatted> formatted = new ArrayList<>();
+        for (Citation citation : citations) {
+            String ref = refFormatter.format(citation.getReference());
+            List<Substitution> subs = absFormatter.format(citation.getAbstract());
+            CitationFormatted citationFomatted = 
+                    new CitationFormatted(citation.getPmid(), ref, subs);
+            formatted.add(citationFomatted);
+        }
+        return formatted;
     }
 }
