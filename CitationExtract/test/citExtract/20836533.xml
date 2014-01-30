@@ -1,0 +1,264 @@
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">20836533</PMID>
+        <DateCreated>
+            <Year>2010</Year>
+            <Month>09</Month>
+            <Day>30</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2011</Year>
+            <Month>01</Month>
+            <Day>18</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2013</Year>
+            <Month>10</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1520-5207</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>114</Volume>
+                    <Issue>39</Issue>
+                    <PubDate>
+                        <Year>2010</Year>
+                        <Month>Oct</Month>
+                        <Day>7</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The journal of physical chemistry. B</Title>
+                <ISOAbbreviation>J Phys Chem B</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Renormalizing SMD: the renormalization approach and its use in long time simulations and accelerated PMF calculations of macromolecules.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>12720-8</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1021/jp1056122</ELocationID>
+            <Abstract>
+                <AbstractText>Simulations of long time process in condensed phases, in general, and in biomolecules, in particular, present a major challenge that cannot be overcome at present by brute force molecular dynamics (MD) approaches. This work takes the renormalization method, intruded by us sometime ago, and establishes its reliability and potential in extending the time scale of molecular simulations. The validation involves a truncated gramicidin system in the gas phase. This system is small enough to allow for very long explicit simulations and sufficiently complex to present the physics of realistic ion channels. The renormalization approach is found to be reliable and arguably presents the first approach that allows one to exploit the otherwise problematic steered molecular dynamics (SMD) treatments in quantitative and meaningful studies. It is established that we can reproduce the long time behavior of large systems by using Langevin dynamics (LD) simulations of a renormalized implicit model. This is done without spending the enormous time needed to obtain such trajectories in the explicit system. The present study also provides a promising advance in accelerated evaluation of free energy barriers. This is done by adjusting the effective potential in the implicit model to reproduce the same passage time as that obtained in the explicit model under the influence of an external force. Here having a reasonable effective friction provides a way to extract the potential of mean force (PMF) without investing the time needed for regular PMF calculations. The renormalization approach, which is illustrated here in realistic calculations, is expected to provide a major help in studies of complex landscapes and in exploring long time dynamics of biomolecules.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Dryga</LastName>
+                    <ForeName>Anatoly</ForeName>
+                    <Initials>A</Initials>
+                    <Affiliation>Department of Chemistry, University of Southern California, Los Angeles, California 90089-1062, USA.</Affiliation>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Warshel</LastName>
+                    <ForeName>Arieh</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>GM 24492</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>GM40283</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 GM024492-33</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 GM024492-34</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 GM040283-23</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 GM040283-24</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, N.I.H., Extramural</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Phys Chem B</MedlineTA>
+            <NlmUniqueID>101157530</NlmUniqueID>
+            <ISSNLinking>1520-5207</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Gases</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>1405-97-6</RegistryNumber>
+                <NameOfSubstance>Gramicidin</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Phys. 2009 Oct 7;131(13):134102</RefSource>
+                <PMID Version="1">19814538</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2009 Oct 13;106(41):17359-64</RefSource>
+                <PMID Version="1">19805169</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2010 Feb 9;107(6):2397-402</RefSource>
+                <PMID Version="1">20133754</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2010 Feb 9;107(6):2381-2</RefSource>
+                <PMID Version="1">20133629</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2010 Apr;78(5):1212-27</RefSource>
+                <PMID Version="1">20052756</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2010 Apr 27;107(17):E71; author reply E72</RefSource>
+                <PMID Version="1">20424124</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Opin Struct Biol. 2001 Apr;11(2):224-30</RefSource>
+                <PMID Version="1">11297932</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomol Struct Dyn. 2009 Aug;27(1):1-12</RefSource>
+                <PMID Version="1">19492858</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2009 May 5;106(18):7449-54</RefSource>
+                <PMID Version="1">19383795</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Q Rev Biophys. 2001 Nov;34(4):563-679</RefSource>
+                <PMID Version="1">11852595</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2002 May 15;47(3):265-80</RefSource>
+                <PMID Version="1">11948781</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acc Chem Res. 2002 Jun;35(6):385-95</RefSource>
+                <PMID Version="1">12069623</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2003 Aug 15;52(3):412-26</RefSource>
+                <PMID Version="1">12866052</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Chem Phys. 2004 Apr 1;120(13):5946-61</RefSource>
+                <PMID Version="1">15267476</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 1976 Apr 22;260(5553):679-83</RefSource>
+                <PMID Version="1">1264239</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biophys J. 1989 Jul;56(1):171-82</RefSource>
+                <PMID Version="1">2473789</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biophys J. 1996 Oct;71(4):1723-42</RefSource>
+                <PMID Version="1">8889150</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Acc Chem Res. 2005 Jul;38(7):504-13</RefSource>
+                <PMID Version="1">16028884</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Phys Chem B. 2005 Oct 20;109(41):19516-22</RefSource>
+                <PMID Version="1">16853521</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochim Biophys Acta. 2006 Nov;1764(11):1647-76</RefSource>
+                <PMID Version="1">17049320</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Phys Chem B. 2007 Jul 12;111(27):7852-61</RefSource>
+                <PMID Version="1">17571875</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proteins. 2008 Jan 1;70(1):231-47</RefSource>
+                <PMID Version="1">17671961</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biol Chem. 2008 Jan 25;283(4):2042-8</RefSource>
+                <PMID Version="1">17998210</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Chem Soc. 2008 Apr 9;130(14):4772-83</RefSource>
+                <PMID Version="1">18338887</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Gases</DescriptorName>
+                <QualifierName MajorTopicYN="N">chemistry</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Gramicidin</DescriptorName>
+                <QualifierName MajorTopicYN="N">chemistry</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y">Molecular Dynamics Simulation</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">NIHMS230420</OtherID>
+        <OtherID Source="NLM">PMC2948080</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2010</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2010</Year>
+                <Month>9</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2011</Year>
+                <Month>1</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1021/jp1056122</ArticleId>
+            <ArticleId IdType="pubmed">20836533</ArticleId>
+            <ArticleId IdType="pmc">PMC2948080</ArticleId>
+            <ArticleId IdType="mid">NIHMS230420</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+

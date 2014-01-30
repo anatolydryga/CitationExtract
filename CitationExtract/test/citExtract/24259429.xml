@@ -1,0 +1,399 @@
+﻿<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">24259429</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>30</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1362-4962</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>42</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2014</Year>
+                        <Month>Jan</Month>
+                        <Day>1</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Nucleic acids research</Title>
+                <ISOAbbreviation>Nucleic Acids Res.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Database resources of the National Center for Biotechnology Information.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>D7-D17</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/nar/gkt1146</ELocationID>
+            <Abstract>
+                <AbstractText>In addition to maintaining the GenBank® nucleic acid sequence database, the National Center for Biotechnology Information (NCBI, http://www.ncbi.nlm.nih.gov) provides analysis and retrieval resources for the data in GenBank and other biological data made available through the NCBI Web site. NCBI resources include Entrez, the Entrez Programming Utilities, MyNCBI, PubMed, PubMed Central, PubReader, Gene, the NCBI Taxonomy Browser, BLAST, BLAST Link, Primer-BLAST, COBALT, RefSeq, UniGene, HomoloGene, ProtEST, dbMHC, dbSNP, dbVar, Epigenomics, the Genetic Testing Registry, Genome and related tools, the Map Viewer, Trace Archive, Sequence Read Archive, BioProject, BioSample, ClinVar, MedGen, HIV-1/Human Protein Interaction Database, Gene Expression Omnibus, Probe, Online Mendelian Inheritance in Animals, the Molecular Modeling Database, the Conserved Domain Database, the Conserved Domain Architecture Retrieval Tool, Biosystems, Protein Clusters and the PubChem suite of small molecule databases. Augmenting many of the Web applications are custom implementations of the BLAST program optimized to search specialized data sets. All these resources can be accessed through the NCBI home page.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <CollectiveName>NCBI Resource Coordinators</CollectiveName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>11</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Nucleic Acids Res</MedlineTA>
+            <NlmUniqueID>0411011</NlmUniqueID>
+            <ISSNLinking>0305-1048</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <InvestigatorList>
+            <Investigator ValidYN="Y">
+                <LastName>Acland</LastName>
+                <ForeName>Abigail</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Agarwala</LastName>
+                <ForeName>Richa</ForeName>
+                <Initials>R</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Barrett</LastName>
+                <ForeName>Tanya</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Beck</LastName>
+                <ForeName>Jeff</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Benson</LastName>
+                <ForeName>Dennis A</ForeName>
+                <Initials>DA</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bollin</LastName>
+                <ForeName>Colleen</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bolton</LastName>
+                <ForeName>Evan</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Bryant</LastName>
+                <ForeName>Stephen H</ForeName>
+                <Initials>SH</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Canese</LastName>
+                <ForeName>Kathi</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Church</LastName>
+                <ForeName>Deanna M</ForeName>
+                <Initials>DM</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Clark</LastName>
+                <ForeName>Karen</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Dicuccio</LastName>
+                <ForeName>Michael</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Dondoshansky</LastName>
+                <ForeName>Ilya</ForeName>
+                <Initials>I</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Federhen</LastName>
+                <ForeName>Scott</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Feolo</LastName>
+                <ForeName>Michael</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Geer</LastName>
+                <ForeName>Lewis Y</ForeName>
+                <Initials>LY</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Gorelenkov</LastName>
+                <ForeName>Viatcheslav</ForeName>
+                <Initials>V</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Hoeppner</LastName>
+                <ForeName>Marilu</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Johnson</LastName>
+                <ForeName>Mark</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kelly</LastName>
+                <ForeName>Christopher</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Khotomlianski</LastName>
+                <ForeName>Viatcheslav</ForeName>
+                <Initials>V</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kimchi</LastName>
+                <ForeName>Avi</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kimelman</LastName>
+                <ForeName>Michael</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kitts</LastName>
+                <ForeName>Paul</ForeName>
+                <Initials>P</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Krasnov</LastName>
+                <ForeName>Sergey</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kuznetsov</LastName>
+                <ForeName>Anatoliy</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Landsman</LastName>
+                <ForeName>David</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lipman</LastName>
+                <ForeName>David J</ForeName>
+                <Initials>DJ</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lu</LastName>
+                <ForeName>Zhiyong</ForeName>
+                <Initials>Z</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Madden</LastName>
+                <ForeName>Thomas L</ForeName>
+                <Initials>TL</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Madej</LastName>
+                <ForeName>Tom</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Maglott</LastName>
+                <ForeName>Donna R</ForeName>
+                <Initials>DR</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Marchler-Bauer</LastName>
+                <ForeName>Aron</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Karsch-Mizrachi</LastName>
+                <ForeName>Ilene</ForeName>
+                <Initials>I</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Murphy</LastName>
+                <ForeName>Terence</ForeName>
+                <Initials>T</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ostell</LastName>
+                <ForeName>James</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>O'Sullivan</LastName>
+                <ForeName>Christopher</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Panchenko</LastName>
+                <ForeName>Anna</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Phan</LastName>
+                <ForeName>Lon</ForeName>
+                <Initials>L</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Pruitt</LastName>
+                <ForeName>Don Preussm Kim D</ForeName>
+                <Initials>DP</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Rubinstein</LastName>
+                <ForeName>Wendy</ForeName>
+                <Initials>W</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Sayers</LastName>
+                <ForeName>Eric W</ForeName>
+                <Initials>EW</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Schneider</LastName>
+                <ForeName>Valerie</ForeName>
+                <Initials>V</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Schuler</LastName>
+                <ForeName>Gregory D</ForeName>
+                <Initials>GD</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Sequeira</LastName>
+                <ForeName>Edwin</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Sherry</LastName>
+                <ForeName>Stephen T</ForeName>
+                <Initials>ST</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Shumway</LastName>
+                <ForeName>Martin</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Sirotkin</LastName>
+                <ForeName>Karl</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Siyan</LastName>
+                <ForeName>Karanjit</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Slotta</LastName>
+                <ForeName>Douglas</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Soboleva</LastName>
+                <ForeName>Alexandra</ForeName>
+                <Initials>A</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Soussov</LastName>
+                <ForeName>Vladimir</ForeName>
+                <Initials>V</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Starchenko</LastName>
+                <ForeName>Grigory</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Tatusova</LastName>
+                <ForeName>Tatiana A</ForeName>
+                <Initials>TA</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Trawick</LastName>
+                <ForeName>Bart W</ForeName>
+                <Initials>BW</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Vakatov</LastName>
+                <ForeName>Denis</ForeName>
+                <Initials>D</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Wang</LastName>
+                <ForeName>Yanli</ForeName>
+                <Initials>Y</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Ward</LastName>
+                <ForeName>Minghong</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>John Wilbur</LastName>
+                <ForeName>W</ForeName>
+                <Initials>W</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Yaschenko</LastName>
+                <ForeName>Eugene</ForeName>
+                <Initials>E</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Zbicz</LastName>
+                <ForeName>Kerry</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+        </InvestigatorList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2013</Year>
+                <Month>11</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2013</Year>
+                <Month>11</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">gkt1146</ArticleId>
+            <ArticleId IdType="doi">10.1093/nar/gkt1146</ArticleId>
+            <ArticleId IdType="pubmed">24259429</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
