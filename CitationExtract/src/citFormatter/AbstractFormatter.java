@@ -40,8 +40,7 @@ public class AbstractFormatter {
         for (int i = 0;  i < sectionText.size();  i++) {
             // we dont need labels at present
             if ( ! sectionLabel.get(i).equals("")) {
-                String spaceOpt = (i == 0) ? "" : " "; 
-                subs.add(new Substitution(sectionLabel.get(i), spaceOpt));
+                subs.add(new Substitution(sectionLabel.get(i), ""));
             }
             TextSubstitution formatter = 
                     new TextSubstitution(sectionText.get(i), rules);
