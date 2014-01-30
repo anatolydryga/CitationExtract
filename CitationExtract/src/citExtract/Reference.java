@@ -25,6 +25,16 @@ public class Reference {
     Reference() {
         this.year = 0;
     }
+
+    private String collectiveName = "";
+
+    public String getCollectiveName() {
+        return collectiveName;
+    }
+
+    public void setCollectiveName(String collectiveName) {
+        this.collectiveName = collectiveName;
+    }
                                                                                  
     public void setYear(int year) {                                              
         this.year    = year;                                                     
