@@ -3,12 +3,8 @@ package citFormatter;
 import citExtract.Abstract;
 import citExtract.Citation;
 import citExtract.CitationFactory;
+import citExtract.FileReader;
 import java.io.IOException;
-import java.nio.ByteBuffer;
-import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.List;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -58,7 +54,7 @@ public class AbstractFormatterTest {
 
     private void testAbstract(String abstractPath, Abstract abstractForFormat) {
         try {
-            String expResult = readFile(abstractPath);
+            String expResult = FileReader.readFile(abstractPath);
             List<Substitution> subs = absFormatter.format(abstractForFormat);
             String result = SubstitutionList.getSubstitutionText(subs);
             assertEquals(expResult, result);
@@ -66,14 +62,4 @@ public class AbstractFormatterTest {
             fail("cannot read abstract file for the test: " + e);
         }
     }
-
-    static String readFile(String path) throws IOException {
-        return readFile(path, StandardCharsets.UTF_8);
-    }
-
-    static String readFile(String path, Charset encoding) throws IOException {
-        byte[] encoded = Files.readAllBytes(Paths.get(path));
-        return encoding.decode(ByteBuffer.wrap(encoded)).toString();
-    }
-
 }
