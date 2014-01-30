@@ -70,10 +70,11 @@ public class CitationFactoryTest {
         assertEquals(abst.getSectionsText().size(), 3);
         assertEquals(abst.getSectionsLabel().size(), 3);
 
-        assertEquals(abst.getSectionsText().get(0).length(), 739);
+        // we add \n for each section of structured abstract
+        assertEquals(abst.getSectionsText().get(0).length(), 740);
         assertEquals(abst.getSectionsLabel().get(0), "BACKGROUND");
 
-        assertEquals(abst.getSectionsText().get(1).length(), 1192);
+        assertEquals(abst.getSectionsText().get(1).length(), 1193);
         assertEquals(abst.getSectionsLabel().get(1), "DESCRIPTION");
 
         assertEquals(abst.getSectionsLabel().get(2), "CONCLUSION");
@@ -85,7 +86,7 @@ public class CitationFactoryTest {
         Abstract abst = citations.get(0).getAbstract();
         assertEquals(abst.getSectionsText().size(), 1);
         assertEquals(abst.getSectionsLabel().size(), 1);
-        assertEquals(abst.getSectionsText().get(0).length(), 1177);
+        assertEquals(abst.getSectionsText().get(0).length(), 1178);
         assertEquals(abst.getSectionsLabel().get(0), "");
     }
 
