@@ -14,7 +14,7 @@ package citExtract;
 import java.util.Arrays;                                                         
                                                                                  
 public class IdsValidator {                                                      
-    private static final int MAX_NUM_IDs = 50;                                   
+    private static final int MAX_NUM_IDs = 20;                                   
     private int[] ids;                                                           
                                                                                  
     IdsValidator(String[] idsStr) {                                              
