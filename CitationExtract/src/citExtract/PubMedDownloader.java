@@ -29,6 +29,7 @@ public class PubMedDownloader {
         this.pmids = pmids;
         constructUrl();
         postUrl();
+        validateResponse();
     }
     
     /** only URL for all IDs is produced.
@@ -55,16 +56,23 @@ public class PubMedDownloader {
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
             doc = db.parse(new URL(getUrl()).openStream());
+            Thread.sleep(500);
+        } catch (Exception e) {
+            throw new IllegalArgumentException("cannot create DocumentBuilder.");
+        }
+    }
+
+    private void validateResponse() {
             /// check for errors
             NodeList nList = doc.getElementsByTagName("PubmedArticle");
             if (nList.getLength() == 0) {
                 throw new IllegalArgumentException(
                         "cannot parse PubMedArticle tag in the response");
             }
-            Thread.sleep(300);
-        } catch (Exception e) {
-            throw new IllegalArgumentException("cannot download XML from NCBI");
-        }
+            if (nList.getLength() != pmids.length) {
+                throw new IllegalArgumentException(
+                        "Did not get all PMIDs in the response.");
+            }
     }
  
 }
