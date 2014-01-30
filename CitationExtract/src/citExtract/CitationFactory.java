@@ -39,7 +39,7 @@ public class CitationFactory {
         for (int i = 0; i < nList.getLength(); i++) {
             Node nNode = nList.item(i);
             String label = ((Element) nNode).getAttribute("Label");
-            abst.addAbstractText(nNode.getTextContent(), label);
+            abst.addAbstractText(nNode.getTextContent() + "\n", label);
         }
         return abst;
     }
@@ -71,8 +71,15 @@ public class CitationFactory {
 
             String lastName = getFirstStringElement(elemAuthor, "LastName");
             String initials = getFirstStringElement(elemAuthor, "Initials");
+            String collectiveName = getFirstStringElement(elemAuthor, "CollectiveName");
 
-            reference.addAuthor(lastName, initials);
+            if ( ! collectiveName.equals("")) {
+                assert reference.getCollectiveName().equals("");
+                reference.setCollectiveName(collectiveName);
+            }
+            if ( ! (lastName.equals("") && initials.equals("")) ) {
+                reference.addAuthor(lastName, initials);
+            }
         }
 
         return reference;
